@@ -1,2 +1,55 @@
 h3{ color:palevioletred}
-button{color: palevioletred;}
+
+.navtitle>span{
+    color: red;
+}
+
+.navtitle{
+    float: left;
+}
+
+.navbar{
+    list-style-type: none;
+    display: flex;
+    float: right;
+}
+
+.navbar>li{
+    margin-right: 10px;
+}
+
+.navbar>button{
+    background-color: red;
+    color: white;
+    border: 0px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+    margin: 0px 10px 0px 10px;
+}
+
+.title{
+    padding-top: 10%;
+}
+
+.heading_container{
+    display: flex;
+}
+
+.heading{
+    color: red;
+}
+
+.buttons>.enroll{
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    padding: 7px 15px 7px 15px;
+    border: 0px;
+}
+
+.buttons>.explore{
+    border: 1px solid red;
+    color: red;
+    padding: 5px 10px 5px 10px;
+    background-color: transparent;
+}
